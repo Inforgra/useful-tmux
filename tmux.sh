@@ -1,4 +1,4 @@
-function utmux () {
+function tmux () {
   TMUX=/usr/bin/tmux
   SESSION=tmux-$(whoami)
   [ ! -z $1 ] && SESSION=${SESSION}-$1
